@@ -13,7 +13,7 @@ body {
 /* CARD (PARENT) */
 .card {
   width: 500px;
-  minheight: 750px;
+  min-height: 750px;
   background-color: #ffffff;
   padding: 36px;
   border-radius: 14px;
