@@ -1,0 +1,92 @@
+
+
+/* BODY */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  font-family: 'Inter', sans-serif;
+}
+
+/* CARD (PARENT) */
+.card {
+  width: 500px;
+  height: 750px;
+  background-color: #ffffff;
+  padding: 36px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* CHILD ELEMENTS */
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+.card h1 {
+  font-size: 30px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #475569;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+/* SECTION TITLES */
+.section-title {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  color: #1e293b;
+}
+
+/* LIST */
+.card ul {
+  padding-left: 18px;
+  margin-bottom: 16px;
+  color: #334155;
+  font-size: 14px;
+}
+
+.card li {
+  margin-bottom: 4px;
+}
+
+/* LINK */
+.card a {
+  text-decoration: none;
+}
+
+/* BUTTON */
+.card button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+/* PSEUDO CLASSES */
+.card button:hover {
+  background-color: #1d4ed8;
+}
+
+.card button:active {
+  transform: scale(0.96);
+}
