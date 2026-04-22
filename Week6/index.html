@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Planner</title>
 
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1 id="greeting">Welcome!</h1>
+    <p>My Interactive Daily Planner</p>
+  </header>
+
+  <main class="container">
+
+    <!-- Interaction 1 -->
+    <section class="card">
+      <h2>Theme Changer</h2>
+      <button id="themeBtn">Change Theme</button>
+    </section>
+
+    <!-- Interaction 2 -->
+    <section class="card">
+      <h2>Input Focus</h2>
+      <input type="text" id="nameInput" placeholder="Type your name">
+      <p id="inputMessage">Input is waiting...</p>
+    </section>
+
+    <!-- Interaction 3 -->
+    <section class="card" id="hoverCard">
+      <h2>Hover Effect</h2>
+      <p>Hover over this card</p>
+    </section>
+
+    <!-- Interaction 4 -->
+    <section class="card">
+      <h2>Motivation</h2>
+      <button id="messageBtn">Show Message</button>
+      <p id="messageText"></p>
+    </section>
+
+    <!-- Interaction 5 -->
+    <section class="card">
+      <h2>To-Do List</h2>
+      <input type="text" id="taskInput" placeholder="Enter task">
+      <button id="addTaskBtn">Add Task</button>
+      <ul id="taskList"></ul>
+    </section>
+
+  </main>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
